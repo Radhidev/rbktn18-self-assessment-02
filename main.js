@@ -41,11 +41,16 @@ function map(array, func) {
 //of all of those strings, but transformed to upper case.
 //You can use toUpperCase method to convert a string to upper case.
 // Note: please write one or two lines here describing your solution.
+in this methode i think it woul be the best to use .touppercase in my code.
 // var strArr = ['hello', 'world', 'whirled', 'peas'];
 // uppercaseAll(strArr); ==> [ 'HELLO', 'WORLD', 'WHIRLED', 'PEAS' ]
 
 function uppercaseAll(arrayOfStrings) {
-  // TODO: your code here
+ var strArr = ['hello', 'world', 'whirled', 'peas']
+ return map (arrayOfStrings,function(array){
+return strArr=strArr.ToUpperCase(array)
+
+ })
 
 }
 
